@@ -127,10 +127,20 @@
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "projects/ng-yandex-metrika/tsconfig.lib.json",
             "project": "projects/ng-yandex-metrika/ng-package.json"
+          },
+          "sourceMap": {
+            "hidden": true,
+            "scripts": true,
+            "styles": true
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ng-yandex-metrika/tsconfig.lib.json"
+            }
           }
         },
         "test": {
@@ -143,6 +153,5 @@
         }
       }
     }
-  },
-  "defaultProject": "ng-yandex-metrika-proj"
+  }
 }
