@@ -1,6 +1,6 @@
 {
   "name": "@le2xx/ng-yandex-metrika",
-  "version": "14.0.0",
+  "version": "15.0.0",
   "description": "Yandex metrika for angular",
   "keywords": [
     "yandex",
@@ -11,8 +11,8 @@
   "author": "Lyubimov Roman, le2xx",
   "license": "MIT",
   "peerDependencies": {
-    "@angular/common": "^13.1.0 || ^14.0.0",
-    "@angular/compiler": "^13.1.0 || ^14.0.0"
+    "@angular/common": ">=14.0.0",
+    "@angular/compiler": ">=14.0.0"
   },
   "repository": {
     "url": "git@github.com:@le2xx/ng-yandex-metrika.git"
